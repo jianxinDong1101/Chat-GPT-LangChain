@@ -40,8 +40,6 @@ from langchain.vectorstores.faiss import FAISS
 from langchain.docstore.document import Document
 from langchain.chains.question_answering import load_qa_chain
 
-news_api_key = os.environ["NEWS_API_KEY"]
-tmdb_bearer_token = os.environ["TMDB_BEARER_TOKEN"]
 
 TOOLS_LIST = ['serpapi', 'wolfram-alpha', 'pal-math',
               'pal-colored-objects']  # 'google-search','news-api','tmdb-api','open-meteo-api'
